@@ -9,8 +9,8 @@ body {
 
 @font-face {
     font-family: 'dimboregular';
-    src: url('fonts/dimbo_regular-webfont.woff2') format('woff2'),
-         url('fonts/dimbo_regular-webfont.woff') format('woff');
+    src: url('font/dimbo_regular-webfont.woff2') format('woff2'),
+         url('font/dimbo_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
