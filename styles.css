@@ -16,12 +16,30 @@ body {
 }
 
 .container {
-    background-color:#e8e2b3;
     max-width: 1500px;
     margin: 0 auto 20px auto;
-    padding: 20px;
-    border: 6px solid #b9b388;
-    border-radius: 20px;
+	box-sizing: border-box;
+}
+.container-view {
+	background-color:#e8e2b3;
+	padding: 20px;
+	border: 6px solid #b9b388;
+	border-radius: 20px;
+}
+
+.container-item {
+	display: inline-block;
+	width: 29%;
+}
+
+.item-panel {
+	text-align: justify;
+}
+
+.item-panel:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
 }
 
 .rulebox {
