@@ -29,7 +29,25 @@ body {
 
 .container-item {
 	display: inline-block;
-	width: 29%;
+	width: 300px;
+	height: 300px;
+}
+
+.White-panel {
+	background-color: white;
+	text-align: center;
+	font-size: 29px;
+	font-family: sans-serif;
+	color: red;
+	border-radius: 8px;
+	margin: 2px 8px;
+	}
+.container-item p {
+	font-family: sans-serif;
+	font-size: 150px;
+	text-align: center;
+	margin: 45px 15px;
+	color: #c10000;
 }
 
 .item-panel {
