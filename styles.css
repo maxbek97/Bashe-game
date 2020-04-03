@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 800px;
     margin: 0 auto 20px auto;
 	box-sizing: border-box;
 }
@@ -29,14 +29,14 @@ body {
 
 .container-item {
 	display: inline-block;
-	width: 300px;
-	height: 300px;
+	width: 180px;
+	height: 180px;
 }
 
 .White-panel {
 	background-color: white;
 	text-align: center;
-	font-size: 29px;
+	font-size: 20px;
 	font-family: sans-serif;
 	color: red;
 	border-radius: 8px;
@@ -44,9 +44,9 @@ body {
 	}
 .container-item p {
 	font-family: sans-serif;
-	font-size: 150px;
+	font-size: 100px;
 	text-align: center;
-	margin: 45px 15px;
+	margin: 25px 15px;
 	color: #c10000;
 }
 
@@ -79,17 +79,24 @@ body {
 .chest-text {
     background: url("./images/chest1.png") 1px 0 no-repeat; 
     display: inline-block;
-    width: 334px;
-    height: 242px;
     text-indent: -999px;
+	width: 140px;
+    height: 140px;
+    background-size: contain;
 }
 
 .chest-input:checked + .chest-text {
     background: url("./images/chest2.png") 0 0 no-repeat; 
+	width: 140px;
+    height: 140px;
+    background-size: contain;
 }
 
 .chest-text:hover {
     background: url("./images/key.png") 0 0 no-repeat;
+	width: 140px;
+    height: 140px;
+    background-size: contain;
 }
 
 h1{
