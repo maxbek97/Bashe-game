@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Камни Баше</title>
   <link href="styles.css" rel="stylesheet"/>
+  <script src="libs/jquery-3.4.1.min.js"></script>
   <style>
   h1 {font-family: dimbo, sans-serif; 
   }
@@ -25,9 +26,9 @@
 		</p>
 	</div>
 	<div class="item-panel container">
-		<div class ="container-view container-item">
-			<div class="White-panel">Игроков</div>
-				<p>2</p>
+		<div id="switch-player-btn" class ="container-view container-item">
+			<div class="White-panel">Игрок</div>
+				<p id="switch-player">2</p>
 		</div>
 		<div class ="container-view container-item">
 			<div class="White-panel">Максимум за ход</div>
