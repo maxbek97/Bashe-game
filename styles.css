@@ -9,8 +9,8 @@ body {
 
 @font-face {
     font-family: 'dimboregular';
-    src: url('font/dimbo_regular-webfont.woff2') format('woff2'),
-         url('font/dimbo_regular-webfont.woff') format('woff');
+    src: url('fonts/dimbo_regular-webfont.woff2') format('woff2'),
+         url('fonts/dimbo_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -104,9 +104,6 @@ body {
     cursor: default;
 }
 
-.chest-input:disabled + ..chest-text:hover {
-	opacity:0;
-}
 
 h1{
     background: #518ea0; 
