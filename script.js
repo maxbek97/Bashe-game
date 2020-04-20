@@ -10,14 +10,5 @@ $(document).ready(function () {
 		}
 	});
 });
-$(document).ready(function () {
-	$('.chest-text').on('click', function() {
-		if ($('#switch-player').html() == "1") {
-			$('.chest-input').css("border-bottom" "1px" "dotted" "color" "red");
-		}
-		else {
-			$('.chest-input').css("border-bottom", "1px" "dotted" "green");
-		}
-	});
-});
+
 	

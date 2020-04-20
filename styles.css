@@ -161,8 +161,8 @@ h1{
     background: #518ea0; 
     color: #e8e2b3; 
     padding: 2px; 
-    font: 5em Dimboregular , sans-serif;
     text-shadow: 6px 1px 0px rgba(123,10,65,0.55);
+	font-size: 5em;
    }
 
 ::-webkit-scrollbar {
