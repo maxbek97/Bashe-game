@@ -127,7 +127,6 @@ body {
 
 .chest-text {
     background: url("./images/bashe_spites.png") 1px 0 no-repeat; 
-    display: inline-block;
     text-indent: -999px;
 	width: 140px;
     height: 140px;
