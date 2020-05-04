@@ -59,7 +59,3 @@ $(document).ready(function () {
 			}
 	});
 });
-var musicSpan = document.getElementById('musicSpan');
-musicSpan.addEventListener('click',function(){
-  document.getElementById('sound').play()
-})
