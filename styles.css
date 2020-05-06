@@ -6,29 +6,48 @@ body {
     text-align: center;
     user-select: none;
 }
-@font-face {
-    font-family: 'dimboregular';
-    src: url('fonts/dimbo_regular-webfont.woff2') format('woff2'),
-         url('fonts/dimbo_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
+body.darkmod {
+	background: #37454c;
 }
+
+h1{
+	display: inline-block;
+    background: #518ea0; 
+    color: #e8e2b3; 
+    padding: 2px; 
+    text-shadow: 6px 1px 0px rgba(123,10,65,0.55);
+	font-size: 5em;
+   }
+
+.darkmod h1 {
+	background: #37454c;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto 20px auto;
 	box-sizing: border-box;
 }
+
 .container-view {
 	background-color:#e8e2b3;
 	padding: 20px;
 	border: 6px solid #b9b388;
 	border-radius: 20px;
 }
+
+.darkmod .container-view {
+	background-color: #506c8e;
+	border: #223888 6px solid;
+}
+
 .container-item {
 	display: inline-block;
 	width: 180px;
 	height: 180px;
 }
+
 .White-panel {
 	background-color: white;
 	text-align: center;
@@ -38,6 +57,11 @@ body {
 	border-radius: 8px;
 	margin: 2px 8px;
 	}
+	
+.darkmod .White-panel {
+	background-color: #757575;
+}
+
 .container-item p {
 	font-family: sans-serif;
 	font-size: 100px;
@@ -45,6 +69,7 @@ body {
 	margin: 25px 15px;
 	color: #c10000;
 }
+
 .container span{
 	font-family: Dimboregular;
 	text-align: center;
@@ -109,6 +134,10 @@ body {
     overflow-y: auto;
 }
 
+.darkmod .rulebox {
+	color: white;
+}
+
 .chest {
     overflow: hidden;
     display: inline-block;
@@ -120,7 +149,7 @@ body {
 }
 
 .night-input {
-	    opacity: 0;
+	opacity: 0;
     position: absolute;
 }
 
@@ -195,37 +224,57 @@ body {
     cursor: default;
 }
 
-h1{
-	display: inline-block;
-    background: #518ea0; 
-    color: #e8e2b3; 
-    padding: 2px; 
-    text-shadow: 6px 1px 0px rgba(123,10,65,0.55);
-	font-size: 5em;
-   }
+.state_1_js {
+    background-color: #7eea00;
+}
 
+.darkmod .state_1_js {
+	background-color: #91c356;
+}
+
+.state_2_js {
+    background-color: #21e0f3;
+}
+
+.darkmod .state_2_js {
+	background-color: #55c8d4;
+}
+
+.chest-input.state_1_js + .chest-text {
+    border-bottom: 2px solid #7eea00;
+}
+
+.darkmod .chest-input.state_1_js + .chest-text {
+	border-bottom: 2px solid #91c356;
+}
+
+.chest-input.state_2_js + .chest-text {
+  border-bottom: 2px solid #21e0f3;
+}
+
+.darkmod .chest-input.state_2_js + .chest-text {
+	border-bottom: 2px solid #55c8d4; 
+}
+
+/* scroll */
 ::-webkit-scrollbar {
     width: 15px;
-}
- 
+} 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     border-radius: 10px;
-}
- 
+} 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
-.chest-input.state_1_js + .chest-text {
-    border-bottom: 2px solid #7eea00;
-}
-.state_1_js {
-    background-color: #7eea00;
-}
-.chest-input.state_2_js + .chest-text {
-  border-bottom: 2px solid #21e0f3;
-}
-.state_2_js {
-    background-color: #21e0f3;
+
+/*fonts */
+
+@font-face {
+    font-family: 'dimboregular';
+    src: url('fonts/dimbo_regular-webfont.woff2') format('woff2'),
+         url('fonts/dimbo_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
